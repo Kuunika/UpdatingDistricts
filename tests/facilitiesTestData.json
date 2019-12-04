@@ -1,0 +1,216 @@
+{
+    "input": [
+        {
+            "facility_id": null,
+            "facility_name": null,
+            "common_name": null,
+            "facility_code": "MKL00908089",
+            "facility_date_opened": null,
+            "facility_code_mapping": null,
+            "facilityTypeId": null,
+            "facilityOwnerId":  null,
+            "facilityOperationalStatusId": null,
+            "facilityRegulatoryStatusId": null,
+            "district": {
+                "id": 1,
+                "district_name": "Balaka",
+                "district_code": "BLK",
+                "facility": null,
+                "created_at": null,
+                "updated_at": null,
+                "zoneId": null
+            }
+        },
+        {
+            "facility_id": null,
+            "facility_name": null,
+            "common_name": null,
+            "facility_code": "ROP90894892",
+            "facility_date_opened": null,
+            "facility_code_mapping": null,
+            "facilityTypeId": null,
+            "facilityOwnerId":  null,
+            "facilityOperationalStatusId": null,
+            "facilityRegulatoryStatusId": null,
+            "district": {
+                "id": 2,
+                "district_name": "Mchinji",
+                "district_code": "MC",
+                "facility": null,
+                "created_at": null,
+                "updated_at": null,
+                "zoneId": null
+            }
+        },
+        {
+            "facility_id": null,
+            "facility_name": null,
+            "common_name": null,
+            "facility_code": "MC090980840",
+            "facility_date_opened": null,
+            "facility_code_mapping": null,
+            "facilityTypeId": null,
+            "facilityOwnerId":  null,
+            "facilityOperationalStatusId": null,
+            "facilityRegulatoryStatusId": null,
+            "district": {
+                "id": 4,
+                "district_name": "Machinga",
+                "district_code": "MHG",
+                "facility": null,
+                "created_at": null,
+                "updated_at": null,
+                "zoneId": null
+            }
+        },
+        {
+            "facility_id": null,
+            "facility_name": null,
+            "common_name": null,
+            "facility_code": "CX9080409",
+            "facility_date_opened": null,
+            "facility_code_mapping": null,
+            "facilityTypeId": null,
+            "facilityOwnerId":  null,
+            "facilityOperationalStatusId": null,
+            "facilityRegulatoryStatusId": null,
+            "district": {
+                "id": 5,
+                "district_name": "Chiradzulu",
+                "district_code": "CZ",
+                "facility": null,
+                "created_at": null,
+                "updated_at": null,
+                "zoneId": null
+            }
+        },
+        {
+            "facility_id": null,
+            "facility_name": null,
+            "common_name": null,
+            "facility_code": "MHG90804892",
+            "facility_date_opened": null,
+            "facility_code_mapping": null,
+            "facilityTypeId": null,
+            "facilityOwnerId":  null,
+            "facilityOperationalStatusId": null,
+            "facilityRegulatoryStatusId": null,
+            "district": {
+                "id": 3,
+                "district_name": "Mchinji",
+                "district_code": "MC",
+                "facility": null,
+                "created_at": null,
+                "updated_at": null,
+                "zoneId": null
+            }
+        }
+    ],
+    "expectedOutput": [
+        {
+            "facility_id": null,
+            "facility_name": null,
+            "common_name": null,
+            "facility_code": "BLK00908089",
+            "facility_date_opened": null,
+            "facility_code_mapping": null,
+            "facilityTypeId": null,
+            "facilityOwnerId":  null,
+            "facilityOperationalStatusId": null,
+            "facilityRegulatoryStatusId": null,
+            "district": {
+                "id": 1,
+                "district_name": "Balaka",
+                "district_code": "BLK",
+                "facility": null,
+                "created_at": null,
+                "updated_at": null,
+                "zoneId": null
+            }
+        },
+        {
+            "facility_id": null,
+            "facility_name": null,
+            "common_name": null,
+            "facility_code": "MC90894892",
+            "facility_date_opened": null,
+            "facility_code_mapping": null,
+            "facilityTypeId": null,
+            "facilityOwnerId":  null,
+            "facilityOperationalStatusId": null,
+            "facilityRegulatoryStatusId": null,
+            "district": {
+                "id": 2,
+                "district_name": "Mchinji",
+                "district_code": "MC",
+                "facility": null,
+                "created_at": null,
+                "updated_at": null,
+                "zoneId": null
+            }
+        },
+        {
+            "facility_id": null,
+            "facility_name": null,
+            "common_name": null,
+            "facility_code": "MHG090980840",
+            "facility_date_opened": null,
+            "facility_code_mapping": null,
+            "facilityTypeId": null,
+            "facilityOwnerId":  null,
+            "facilityOperationalStatusId": null,
+            "facilityRegulatoryStatusId": null,
+            "district": {
+                "id": 4,
+                "district_name": "Machinga",
+                "district_code": "MHG",
+                "facility": null,
+                "created_at": null,
+                "updated_at": null,
+                "zoneId": null
+            }
+        },
+        {
+            "facility_id": null,
+            "facility_name": null,
+            "common_name": null,
+            "facility_code": "CZ9080409",
+            "facility_date_opened": null,
+            "facility_code_mapping": null,
+            "facilityTypeId": null,
+            "facilityOwnerId":  null,
+            "facilityOperationalStatusId": null,
+            "facilityRegulatoryStatusId": null,
+            "district": {
+                "id": 5,
+                "district_name": "Chiradzulu",
+                "district_code": "CZ",
+                "facility": null,
+                "created_at": null,
+                "updated_at": null,
+                "zoneId": null
+            }
+        },
+        {
+            "facility_id": null,
+            "facility_name": null,
+            "common_name": null,
+            "facility_code": "MC90804892",
+            "facility_date_opened": null,
+            "facility_code_mapping": null,
+            "facilityTypeId": null,
+            "facilityOwnerId":  null,
+            "facilityOperationalStatusId": null,
+            "facilityRegulatoryStatusId": null,
+            "district": {
+                "id": 3,
+                "district_name": "Mchinji",
+                "district_code": "MC",
+                "facility": null,
+                "created_at": null,
+                "updated_at": null,
+                "zoneId": null
+            }
+        }
+    ]
+}

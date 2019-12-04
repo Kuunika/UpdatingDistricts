@@ -1,0 +1,96 @@
+    {
+        "input": [
+                {
+                    "id": 1,
+                    "district_name": "Balaka",
+                    "district_code": "BLK",
+                    "facility": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "zoneId": null
+                },
+                {
+                    "id": 2,
+                    "district_name": "Mchinji",
+                    "district_code": "BLK",
+                    "facility": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "zoneId": null
+                },
+                {
+                    "id": 3,
+                    "district_name": "Mchinji",
+                    "district_code": "MH",
+                    "facility": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "zoneId": null
+                },
+                {
+                    "id": 4,
+                    "district_name": "Machinga",
+                    "district_code": "MC",
+                    "facility": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "zoneId": null
+                },
+                {
+                    "id": 5,
+                    "district_name": "Chiradzulu",
+                    "district_code": "LL",
+                    "facility": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "zoneId": null
+                }
+            ],
+        "expectedOutput":  [
+                {
+                    "id": 1,
+                    "district_name": "Balaka",
+                    "district_code": "BLK",
+                    "facility": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "zoneId": null
+                },
+                {
+                    "id": 2,
+                    "district_name": "Mchinji",
+                    "district_code": "MC",
+                    "facility": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "zoneId": null
+                },
+                {
+                    "id": 3,
+                    "district_name": "Mchinji",
+                    "district_code": "MC",
+                    "facility": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "zoneId": null
+                },
+                {
+                    "id": 4,
+                    "district_name": "Machinga",
+                    "district_code": "MHG",
+                    "facility": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "zoneId": null
+                },
+                {
+                    "id": 5,
+                    "district_name": "Chiradzulu",
+                    "district_code": "CZ",
+                    "facility": null,
+                    "created_at": null,
+                    "updated_at": null,
+                    "zoneId": null
+                }
+            ]
+    }
