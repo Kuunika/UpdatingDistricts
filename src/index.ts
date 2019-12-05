@@ -21,7 +21,7 @@ createConnection().then(async connection => {
 
     const facilities: Facilities[] = await connection.manager.find(Facilities, { relations: ['district'] });
     const updatedFacilitiesCodes = updateFacilityCodes(facilities, updatedDistricts);
-    connection.manager.save(updatedFacilitiesCodes);
+    await connection.manager.save(updatedFacilitiesCodes);
 
     console.log('Update Complete');
 

@@ -1,7 +1,7 @@
 import {ManyToOne, Column, PrimaryGeneratedColumn, Entity, CreateDateColumn, UpdateDateColumn, ManyToMany, JoinTable, OneToMany, OneToOne, JoinColumn} from 'typeorm';
 import { Districts } from './Districts';
 
-@Entity()
+@Entity({name: 'Facility'})
 export class Facilities{
 
     @PrimaryGeneratedColumn()
