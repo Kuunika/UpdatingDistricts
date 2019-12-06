@@ -4,8 +4,8 @@ import { Districts } from './Districts';
 @Entity({name: 'Facility'})
 export class Facilities{
 
-    @PrimaryGeneratedColumn()
-    facility_id: number;
+    @PrimaryGeneratedColumn({name: 'id'})
+    id: number;
 
     @Column()
     facility_name: string;
@@ -16,25 +16,8 @@ export class Facilities{
     @Column()
     facility_code: string;
 
-    @Column()
-    facility_date_opened: Date;
-
-    @Column({ type: 'json', nullable: true })
-    facility_code_mapping: object;
-
-    @Column()
-    facilityTypeId: number;
-
-    @Column()
-    facilityOwnerId: number;
-
-    @Column()
-    facilityOperationalStatusId: number;
-
-    @Column()
-    facilityRegulatoryStatusId:number;
-
     @ManyToOne(type => Districts, districts => districts.facility, {cascade: true})
+    @JoinColumn({name: "district_id"})
     district: Districts;
 
 }

@@ -15,14 +15,5 @@ export class Districts {
 
     @OneToMany(type => Facilities, facilities => facilities.district)
     facility: Facilities[];
-
-    @Column()
-    created_at: number;
-
-    @Column()
-    updated_at: number;
-
-    @Column()
-    zoneId: number;
     
 }
